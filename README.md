@@ -1,36 +1,37 @@
 [![Java CI](https://github.com/calulazone/LibraryProject/actions/workflows/maven.yml/badge.svg)](https://github.com/calulazone/LibraryProject/actions/workflows/maven.yml)
+
 # Projet Java : Gestion de Bibliothèque
 
-Ce projet est une application simple en Java qui permet de gérer une collection de livres.  
-Il utilise Maven pour la gestion du cycle de vie (compilation, test, exécution, etc.).
+Ce projet Java simple permet de gérer une collection de livres via une application basique.  
+La gestion du cycle de vie (compilation, tests, exécution) est assurée par Maven.
 
 ---
 
-## Structure
+## Structure du projet
 
-- `Book.java` : classe représentant un livre (titre, auteur, année)
-- `Library.java` : classe représentant une bibliothèque avec ajout, suppression et recherche de livres
-- `LibraryTest.java` : classe de test unitaire
-- `LibraryFunctionalTest.java` : classe de test fonctionnel
-- `pom.xml` : fichier de configuration Maven
+- **Book.java** : représente un livre (titre, auteur, année de publication)  
+- **Library.java** : gère une bibliothèque avec ajout, suppression et recherche de livres  
+- **LibraryTest.java** : tests unitaires  
+- **LibraryFunctionalTest.java** : tests fonctionnels simulant des scénarios complets  
+- **pom.xml** : configuration Maven du projet  
 
 ---
 
 ## Prérequis
 
-- Java JDK 21 ou supérieur
-- Maven (installé et accessible via la commande `mvn`)
-- IntelliJ IDEA ou un autre IDE compatible Java/Maven
+- Java JDK 21 ou version supérieure  
+- Maven installé et accessible via la commande `mvn`  
+- Un IDE compatible Java/Maven (IntelliJ IDEA recommandé)  
 
 ---
 
 ## Compilation du projet
 
-Dans le terminal, placez-vous à la racine du projet (là où se trouve `pom.xml`) et exécutez :
+Ouvre un terminal à la racine du projet (là où se trouve `pom.xml`) puis lance :
 
 ```bash
 mvn compile
-````
+```
 
 ## Compilation des tests
 

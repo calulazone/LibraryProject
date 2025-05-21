@@ -1,3 +1,4 @@
+[![Java CI](https://github.com/calulazone/LibraryProject/actions/workflows/maven.yml/badge.svg)](https://github.com/calulazone/LibraryProject/actions/workflows/maven.yml)
 # Projet Java : Gestion de Bibliothèque
 
 Ce projet est une application simple en Java qui permet de gérer une collection de livres.  
